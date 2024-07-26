@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food Order</title> <!--title seria o texto que ficará na aba de navegação-->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body> 
+    <h1>Andrew Donald´s Burguer</h1>
+    <h2>Make your order:</h2>
+    <form method= "post" action="teste.jsp"> <!-- method get seria a formulário de busca e o action teste seria onde será enviado o projeto
+        e post seria não envar o que escreveu no link de acesso -->
+      Name: <input type="text " name="nome"> <br>
+      Email: <input type="email" name="email"> <br>
+      Size: 
+      <input type="radio" name="tamanho" value="g" checked> Big
+      <input type="radio" name="tamanho" value="m"> Medium
+      <input type="radio" name="tamanho" value="p"> Small
+      <br> <!--br seria quebra de linha-->
+      Hamburguer:<select name="tipo do hambúrguer"> <!--select name seria uma caixinha que abre para escolher-->
+        <option>Cheese-bacon</option>
+        <option>Cheese-buguer</option>
+        <option>chicken</option>
+        <option>vegetarian</option>
+      </select>
+      <br>
+      Addiction: 
+      <input type = "checkbox" name="tipo do pão" value = "sim"> Bacon
+      <input type = "checkbox" name="borda" value = "sim"> Extra Cheese <!--check box diferente do radio permite marcar várias de uma vez-->
+      <br>
+      Delivery Date: <input type="date"  name="dataEntrega">
+      <br>
+      Add Comment: <br>
+       <textarea name="mensagem" rows="10" cols="30"></textarea>  <!--rows significa quantidade de linhas e cols seria quantidade de colunas-->
+      <br>
+      <input type="submit" value="Submit"> <!--submit seria enviar-->
+      <br>
+      <br>
+      <img src="https://th.bing.com/th/id/OIP.3iP4oOAiL4f9hQlE9lEvawHaE8?rs=1&pid=ImgDetMain">
+      
+
+
+
+    </form>
+</body>
+</html>
